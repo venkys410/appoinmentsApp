@@ -1,0 +1,172 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  /* min-height: 100vh; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+.card-container {
+  width: 90%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 550px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (min-width: 768px) {
+  .card-container {
+    width: 90%;
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+.add-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .add-section {
+    flex-direction: row;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .form {
+    width: 32%;
+  }
+}
+.app-heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+  color: #171f46;
+}
+@media (min-width: 768px) {
+  .app-heading {
+    font-size: 38px;
+  }
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  color: #b5b7c4;
+}
+.title-input {
+  outline: none;
+  border: 2px solid #b5b7c4;
+  border-radius: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #171f46;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.submit-btn {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: #8b5cf6;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+.image {
+  height: 300px;
+  width: 380px;
+}
+@media (max-width: 767px) {
+  .image {
+    display: none;
+  }
+}
+.line {
+  width: 100%;
+  border: 2px solid #b5b7c4;
+}
+.appointments-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+.section-heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+  color: #171f46;
+}
+@media (min-width: 768px) {
+  .section-heading {
+    font-size: 38px;
+  }
+}
+.star-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  align-self: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #9897f0;
+  border: 1px solid #9897f0;
+  border-radius: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.active-star-button {
+  background-color: #8b5cf6;
+  outline: none;
+  cursor: pointer;
+  align-self: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  /* border: 1px solid #9897f0; */
+  border-radius: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border: none;
+}
+.appointment-container {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
